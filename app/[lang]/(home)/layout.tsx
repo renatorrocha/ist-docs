@@ -4,7 +4,11 @@ import { baseOptions } from "../../layout.config";
 
 export default function Layout({ children }: { children: ReactNode }) {
   return (
-    <HomeLayout i18n {...baseOptions}>
+    <HomeLayout
+      githubUrl="https://github.com/renatorrocha/ist-docs"
+      i18n
+      {...baseOptions}
+    >
       {children}
     </HomeLayout>
   );
