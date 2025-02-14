@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "build": "next build",
-    "dev": "next dev",
+    "dev": "next dev ",
     "start": "next start",
     "postinstall": "fumadocs-mdx"
   },
@@ -17,15 +17,16 @@
     "fumadocs-mdx": "11.5.4"
   },
   "devDependencies": {
+    "@fumadocs/cli": "^0.0.8",
+    "@tailwindcss/postcss": "^4.0.5",
+    "@types/mdx": "^2.0.13",
     "@types/node": "22.13.1",
     "@types/react": "^19.0.8",
     "@types/react-dom": "^19.0.3",
-    "typescript": "^5.7.3",
-    "@types/mdx": "^2.0.13",
-    "@tailwindcss/postcss": "^4.0.5",
-    "tailwindcss": "^4.0.5",
-    "postcss": "^8.5.1",
     "eslint": "^8",
-    "eslint-config-next": "15.1.6"
+    "eslint-config-next": "15.1.6",
+    "postcss": "^8.5.1",
+    "tailwindcss": "^4.0.5",
+    "typescript": "^5.7.3"
   }
 }
